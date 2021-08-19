@@ -39,6 +39,7 @@ const QuillContainer = () => {
     ];
     const onChangeValue = (e) => {
         setValue(e);
+        console.log(e)
     }
 
     return (
